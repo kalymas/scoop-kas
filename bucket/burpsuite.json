@@ -8,7 +8,7 @@
     ],
     "suggest": "java/liberica17-jre",
     "url": "http://www.augenstern.me/d/BaiduYun/PenetrationTools/BurpSuite%20V2025.2.zip?sign=DPSpzxQ-2ob38QtbWt4QtOOacfPWxBl-ZmeS_Qf68W0=:0",
-    "hash": "474A4077CA79414D913737C650A0F1653A0332AF7534681BF71C969D4C454B5A",
+    "hash": "8951931EC08968A3A712176B8DCD8D2827C14327C1A3D04B9D1E3D1B79541393",
     "bin": [
         [
             "CN-JRE Burp.bat",
