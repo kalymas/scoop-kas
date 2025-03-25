@@ -6,9 +6,9 @@
     "notes": [
         "Scoop bucket for Cybersecurity by kalymas(https://github.com/whoopscs/scoop-kas)."
     ],
-    "suggest": "java/liberica17-jre",
-    "url": "http://www.augenstern.me/d/BaiduYun/PenetrationTools/BurpSuite%20V2025.2.zip?sign=DPSpzxQ-2ob38QtbWt4QtOOacfPWxBl-ZmeS_Qf68W0=:0",
-    "hash": "8951931EC08968A3A712176B8DCD8D2827C14327C1A3D04B9D1E3D1B79541393",
+    "suggest": "scoop-cn/liberica-jre",
+    "url": "http://www.augenstern.me/d/BaiduYun/PenetrationTools/BurpSuiteV2025.2.zip?sign=Jwfw8boWQRm8db5DqxczB52L_w-Oj4WNCcp-tNHYUl8=:0",
+    "hash": "9EF7395C63F5E1A068BD4856D9754E9CB6CFFA6E4FF9AA0AD30BD626BE3C9CEE",
     "bin": [
         [
             "CN-JRE Burp.bat",
