@@ -8,7 +8,7 @@
     ],
     "suggest": "scoop-cn/liberica-jre",
     "url": "http://www.augenstern.me/d/BaiduYun/PenetrationTools/BurpSuiteV2025.2.zip?sign=Jwfw8boWQRm8db5DqxczB52L_w-Oj4WNCcp-tNHYUl8=:0",
-    "hash": "9EF7395C63F5E1A068BD4856D9754E9CB6CFFA6E4FF9AA0AD30BD626BE3C9CEE",
+    "hash": "1DC02F33015D80A5FDABFB8A65B06B4A486DD81EC234ABD5796BF8DC5533E86F",
     "bin": [
         [
             "CN-JRE Burp.bat",
