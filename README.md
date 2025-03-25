@@ -20,7 +20,7 @@
 After making sure you have Scoop environment, execute the following command in PowerShell to subscribe to this bucket:
 
 ```powershell
-scoop bucket add sec https://github.com/whoopscs/scoop-security
+scoop bucket add kas https://github.com/whoopscs/scoop-kas
 ```
 
 Once this is done, you can install any app from this bucket (check the list of files in the [`bucket/` directory](https://github.com/whoopscs/scoop-security/tree/main/bucket)). For instance, use the following command:
