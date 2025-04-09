@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/TideSec/TscanPlus/releases/download/v2.7.6/TscanPlus_Win_Amd64_v2.7.6.zip",
-            "hash": "67569234ef805fd86626456d555245fb815417d862f702f977703c8a5f1fa1bd",
+            "hash": "d5187aa1ec5cc95033523268e7e59171b9e4bda6318ebc989ff5e10499134bb6",
             "pre_install": "Rename-Item \"$dir\\TscanPlus_Win_Amd64.exe\" 'TscanPlus.exe'"
         },
         "arm64": {
