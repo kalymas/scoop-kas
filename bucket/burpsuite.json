@@ -11,7 +11,7 @@
     "hash": "BB6E9F8172F25186271398BDF80B49AE0C26F163087C6E28825780F9673F6CB1",
     "bin": [
         [
-            "CN-JRE Burp.bat",
+            "CN-Burp.bat",
             "Burpsuite"
         ]
     ]
