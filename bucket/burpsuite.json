@@ -1,5 +1,5 @@
 {
-    "version": "2025.7",
+    "version": "2025.8.1",
     "description": "The leading toolkit for web security testing.(Scoop bucket for Cybersecurity by kalymas)",
     "homepage": "https://portswigger.net/",
     "license": "Proprietary",
@@ -7,8 +7,8 @@
         "Scoop bucket for Cybersecurity by kalymas(https://github.com/whoopscs/scoop-kas)."
     ],
     "suggest": "scoop-cn/liberica-jre",
-    "url": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy81NDcyNWNlODI4Yjc5ODdmL0VlX2k3LUpIRkd0QnVKeU1FaS1CRnpJQmNBUjZTWGFIcUtTY25yOXJCaHNXbXc_ZT1HMzRHRHo.zip",
-    "hash": "CA17551ED0A8EF635F31F6FA03A3B1D48CFF1648EB01378E52EA9D71D128D54B",
+    "url": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy81NDcyNWNlODI4Yjc5ODdmL0VYd2t0cHBNUTVKQWdVeFVSNlNyeURvQlNibEJzZ184SVVGUkw4THRtWWk3MUE_ZT03S2RjTEs.zip",
+    "hash": "0300B04574C0A51FFC30B47517FA017A22CB8CFC91B42BD2177B0BB5DE05B419",
     "bin": [
         [
             "CN_Burp.bat",
