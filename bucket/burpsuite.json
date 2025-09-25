@@ -7,8 +7,8 @@
         "Scoop bucket for Cybersecurity by kalymas(https://github.com/whoopscs/scoop-kas)."
     ],
     "suggest": "scoop-cn/liberica-jre",
-    "url": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy81NDcyNWNlODI4Yjc5ODdmL0VYd2t0cHBNUTVKQWdVeFVSNlNyeURvQlNibEJzZ184SVVGUkw4THRtWWk3MUE_ZT03S2RjTEs.zip",
-    "hash": "0300B04574C0A51FFC30B47517FA017A22CB8CFC91B42BD2177B0BB5DE05B419",
+    "url": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy81NDcyNWNlODI4Yjc5ODdmL0VRYkpoMHp6NDRGR3RrSkpzVXdYV1FFQnJhM2Zhbm9Da3J0SHlhMmZuR25leUE_ZT1td2V6amg.zip",
+    "hash": "219304A8F9CD82E778574A820173D790B29C6448B8BB7A3792E02B49D8D8699C",
     "bin": [
         [
             "CN_Burp.bat",
