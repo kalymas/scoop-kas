@@ -6,7 +6,7 @@
     "notes": "需要 bash 环境，请先安装 git (scoop install git)。",
     "suggest": {
         "Git": "git"
-    }，
+    },
     "url": "https://github.com/m3n0sd0n4ld/GooFuzz/releases/download/1.2.6/GooFuzz.v.1.2.6.zip",
     "hash": "6dacc9b35035cef4840842290d3421ca43e43e7c99e8e1a3f27bcdf7f78a5e34",
     "pre_install": [
