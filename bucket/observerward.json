@@ -5,7 +5,7 @@
     "license": "GPL-3.0 license",
     "notes": "config location: $env:AppData/observer_ward",
     "url": "https://github.com/emo-crab/observer_ward/releases/download/v2025.9.18/observer_ward_v2025.9.18_i686-pc-windows-msvc.zip",
-    "hash": "30853ae60bca470d48a6869d93bb728482bbd24cf4d6a4c2d8f6ea039a64c44",
+    "hash": "30853ae60bca470d48a6869d93bbb728482bbd24cf4d6a4c2d8f6ea039a64c44",
     "bin": [
         [ "i686-pc-windows-msvc.exe", "observer_ward" ],
         [ "i686-pc-windows-msvc_mcp.exe", "observer_ward_mcp" ]
