@@ -1,24 +1,32 @@
 {
     "version": "1.2.6",
-    "description": "GooFuzz is a tool to perform fuzzing with an OSINT approach.(Scoop bucket  by arch3rpro)",
+    "description": "GooFuzz is a tool to perform fuzzing with an OSINT approach.",
     "homepage": "https://github.com/m3n0sd0n4ld/GooFuzz",
     "license": "GPL-3.0",
-    "notes": "Scoop bucket Exclusively produced by arch3rpro(https://github.com/arch3rPro/PST-Bucket)",
-    "suggest": "Git Bash",
+    "notes": "需要 bash 环境，请先安装 git (scoop install git)。",
+    "suggest": {
+        "Git": "git"
+    }，
     "url": "https://github.com/m3n0sd0n4ld/GooFuzz/releases/download/1.2.6/GooFuzz.v.1.2.6.zip",
     "hash": "6dacc9b35035cef4840842290d3421ca43e43e7c99e8e1a3f27bcdf7f78a5e34",
     "pre_install": [
-        "Set-Content \"$dir\\GooFuzz.bat\" '@echo off"，
-        "@pushd %~dp0",
-        "D:\\Base\\apps\\git\\current\\bin\\bash.exe -c \"export LC_ALL=en_US.UTF-8&&./GooFuzz %*\"",
-        "@popd' -Encoding Ascii"
-    ],
-    "post_install": [
-        "Move-Item -Path "$dir\\GooFuzz.v.$version\GooFuzz.v.version\\*\" -Destination \"dir" -Force",
-        "Remove-Item "$dir\\GooFuzz.v.$version" -Force -Recurse"
+        "# 1. 自动“剥壳”：处理双层或多层目录，将文件移动到根目录",
+        "while ((Get-ChildItem -LiteralPath $dir -Directory).Count -eq 1 -and (Get-ChildItem -LiteralPath $dir -File).Count -eq 0) {",
+        "    $subDir = Get-ChildItem -LiteralPath $dir -Directory | Select-Object -First 1",
+        "    Move-Item -LiteralPath \"$($subDir.FullName)\\*\" -Destination $dir -Force"，
+        "    Remove-Item -LiteralPath $subDir.FullName -Recurse -Force"，
+        "}"，
+        "",
+        "# 2. 创建一个批处理文件(GooFuzz.bat)来调用bash运行GooFuzz"，
+        "$bash = (Get-Command bash.exe -ErrorAction SilentlyContinue).Source"，
+        "if (-not $bash) { $bash = 'bash'; Write-Host '警告: 未找到 bash.exe, 请确保已安装 Git。' -ForegroundColor Yellow }"，
+        "$batContent = \"@echo off`r`npushd %~dp0`r`n`\"$bash`\" -c `\"export LC_ALL=en_US.UTF-8; ./GooFuzz %*`\"`r`npopd\""，
+        "Set-Content -Path \"$dir\\GooFuzz.bat\" -Value $batContent -Encoding Ascii"
     ],
     "bin": "GooFuzz.bat",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/m3n0sd0n4ld/GooFuzz"
+    },
     "autoupdate": {
         "url": "https://github.com/m3n0sd0n4ld/GooFuzz/releases/download/$version/GooFuzz.v.$version.zip"
     }
