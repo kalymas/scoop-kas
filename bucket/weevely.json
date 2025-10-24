@@ -7,7 +7,7 @@
         "Python": "python3"
     },
     "url": "https://github.com/epinna/weevely3/archive/refs/tags/v4.0.2.zip",
-    "hash": "c682e82c963502f9ad2d5dcd10ab96efb562162f4265dd7ce9020ea465c6b915",
+    "hash": "33247A4BA6F2CD51BE000280BE40155DAA1C1704D21F659344386D573C3D0DEB",
     "pre_install": [
         "$sourceDir = (Get-ChildItem \"$dir\" -Directory).FullName",
         "Set-Content \"$dir\\weevely.bat\" \"@python3.exe `\"$sourceDir\\weevely.py`\" %*\" -Encoding Ascii"
