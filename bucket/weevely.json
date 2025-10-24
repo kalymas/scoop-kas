@@ -8,7 +8,7 @@
     },
     "url": "https://github.com/epinna/weevely3/archive/refs/tags/v4.0.3.zip",
     "hash": "c682e82c963502f9ad2d5dcd10ab96efb562162f4265dd7ce9020ea465c6b915",
-    "extract_dir": "weevely3-$version",
+    "extract_dir": "weevely3-4.0.3",
     "pre_install": [
         "Set-Content \"$dir\\weevely.bat\" '@pushd %~dp0",
         "python3 \"weevely.py\" %*",
@@ -21,6 +21,7 @@
     "bin": "weevely.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/epinna/weevely3/archive/refs/tags/v$version.zip"
+        "url": "https://github.com/epinna/weevely3/archive/refs/tags/v$version.zip",
+        "extract_dir": "weevely3-$version"
     }
 }
